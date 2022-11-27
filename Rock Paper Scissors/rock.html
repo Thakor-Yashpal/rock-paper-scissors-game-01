@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+  
+        <div class="links">
+           <h3>Choose your weapon:</h3>
+          <button id="pedra">Rock!</button>
+          <button id="papel">Paper!</button>
+          <button id="tesoura">Scissors!</button>
+          
+        </div>
+        
+        <div class="computer">
+            <form id="pchoose">
+            <p>
+              <label for="pc">Computer choose:</label>
+              <input type="text" name="pc" readonly>
+            </p>
+          </form>
+        </div>
+       
+      <div class="count">
+          <form id="contar">
+           <label for="vic">Wins:</label>
+           <input type="text" name="vic" readonly>
+            <label for="lose">Defeats:</label>
+           <input type="text" name="lose" readonly>
+            <label for="empate">Draws:</label>
+            <input type="text" name="empate" readonly>
+            
+            <input type="reset" value="Reset" id="reset">
+           </form>
+      </div>
+        
+      <div id="choose">
+          <div class="escolha">
+            <div id="win">
+              <h2 class="h2">You Won!</h2>
+              <span>Congratulations!</span>
+            </div>  
+        
+            <div id="lose">
+              <h2 class="h2">You lost!<h2>
+              <span>:(</span>
+            </div>
+            <div id="draw">
+              <h2 class="h2">Draw!</h2>
+              <span> Maybe next time...</span>
+          </div> 
+        </div>
+       </div>
+        
+            
+       
+      
+</body>
+</html>
